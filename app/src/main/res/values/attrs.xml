@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorSeekBar">
+        <attr name="isb_min" format="float|reference"/> <!--min < max, default: 0.0f-->
+        <attr name="isb_max" format="float|reference"/> <!--min < max, default: 100.0f-->
+        <attr name="isb_progress" format="float|reference"/> <!--real time progress value, default: min-->
+        <attr name="isb_is_float_type" format="boolean"/> <!--support for float type-->
+        <attr name="isb_track_size" format="dimension|reference"/> <!--height of right-track(on the right of thumb), default: 2dp-->
+        <attr name="isb_thumb_radius" format="dimension|reference"/> <!--radius of thumb, default: 2dp higher than left-track's height-->
+        <!--radius of thumb when be dragging, default: 2 times of left-track's height-->
+        <attr name="isb_thumb_radius_on_dragging" format="dimension|reference"/>
+        <attr name="isb_thumb_color" format="color|reference"/> <!--color of thumb, default: same as left-track's color-->
+        <attr name="isb_auto_adjust_section_mark" format="boolean"/> <!--auto scroll to the nearest section_mark or not, default: false-->
+        <!--text position of section-text relative to track, sides, bottom_sides, below_section_mark, default: sides-->
+        <attr name="isb_thumb_text_size" format="dimension|reference"/> <!--text size of progress-text, default: 14sp-->
+        <attr name="isb_thumb_text_color" format="color|reference"/> <!--text color of progress-text, default: same as left-track's color-->
+        <attr name="isb_show_progress_in_float" format="boolean"/> <!--show bubble-progress in float or not, default: false-->
+        <attr name="isb_touch_to_seek" format="boolean"/> <!--touch anywhere on track to quickly seek, default: false-->
+        <attr name="isb_anim_duration" format="integer"/> <!--duration of animation, default: 200ms-->
+        <attr name="android:enabled"/>
+    </declare-styleable>
+</resources>
