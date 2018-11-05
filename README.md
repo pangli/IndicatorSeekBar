@@ -3,4 +3,4 @@ seekbar  SeekBar
 
 
 
-![](https://github.com/pangli/IndicatorSeekBar/master/scren/img.png)  
+![](https://github.com/pangli/IndicatorSeekBar/blob/master/scren/img.png)  
